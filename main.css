@@ -1,0 +1,254 @@
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+font-family: SegoeUI;
+src:
+local("Segoe UI Semibold"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+font-weight: 600;
+}
+@font-face {
+font-family: SegoeUI;
+src:
+local("Segoe UI Bold"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+font-weight: 700;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: .8rem;
+  background-color: #515f67;
+}
+  }
+
+
+:root {
+--bleu: #4bcaff;
+  }
+
+.blue {
+color: #4bcaff;
+}
+
+header {
+
+  height: 800px;
+  background-image: url("img/bg.jpg");
+  background-size: auto;
+  background-position: center;
+}
+
+header a {
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+/* navbar */
+
+nav {
+height:  6.3rem;
+}
+
+.navopacity {
+  background-color: rgba(53, 63, 70, 0.8) !important;
+}
+
+.bg-dark {
+    background-color: #3b454d!important;
+    opacity: 90%;
+    width: 124%;
+  }
+
+
+.active:hover {
+  color: #4bcaff !important;
+  border: 2px solid #4bcaff;
+}
+
+
+hr {
+  width:3rem;
+  height:.1rem;
+}
+
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+
+#contact button {
+  background-color: #4bcaff;
+}
+
+
+/* SERVICES*/
+
+.bg {
+  background-image: url("img/bg2.jpg") ;
+  height: 405px;
+}
+
+.service-text{
+  color: white;
+  font-family: 'Segoe UI semibold',sans-serif;
+  font-size: 0.8rem;
+}
+
+.services  {
+font-size: 1.8rem;
+}
+
+/* PORTFOLIO*/
+
+.bg3 {
+  background-image: url("img/bg3.jpg") ;
+  height: 844px;
+}
+.pictures {
+  opacity: 80%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.9rem;
+  right: 0;
+  height: 100%;
+  width: 90%;
+  opacity: 90%;
+  transition: .5s ease;
+}
+
+.pictures:hover .overlay  {
+  opacity: 0.9;
+  background-color: #353f47;
+  display: block;
+}
+
+.pictures:hover .pic {
+  display:block;
+}
+
+.cont {
+position: relative;
+}
+
+.ii {
+opacity: 1;
+display: block;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.cont:hover .ii { opacity: 1;}
+
+.pic {display:none;padding: 16px 32px;}
+
+#portfolio-nav a  {
+color: #69747b
+}
+
+/* VIMEO*/
+#vimeo {
+  height:29.7rem;
+}
+
+/* TWITTER*/
+
+ #twitter
+{
+ background-image: url("img/bg4.jpg") ;
+ height: 19rem;
+ }
+
+/* WHO IS*/
+
+#about {
+  background: url("img/pic10.jpg") no-repeat;
+  background-position: center top;
+  height: 31.25rem;
+}
+
+#about  h4 {
+  border : 2px solid white;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+/* TESTIMONIALS*/
+
+#testimonials {
+  background-image: url("img/bg5.jpg") ;
+  height: 360px;
+}
+
+/* CONTACT*/
+
+#contact {
+  height: 50.6rem;
+  background: url("img/pic11.jpg") no-repeat;
+  background-position: center top;
+}
+
+#message {
+  height: 13.75rem;
+}
+
+#contact  input  {
+  border : 2px solid;
+}
+
+#contact  textarea  {
+  border : 2px solid;
+}
+
+/* FOOTER */
+
+footer {
+height: 10.6rem;
+}
+
+footer li a::after {
+   content: "|";
+   width: 2px;
+   margin-left: 1rem;
+   line-height: 30px;
+}
+
+.bg6
+{
+   background-image: url("img/bg6.jpg") ;
+ }
